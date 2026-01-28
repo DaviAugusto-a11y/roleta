@@ -17,10 +17,6 @@ while Flag == True:
 
         resultado = random.choices(tentativas, probabilidades)[0]
 
-        #aqui ele retorna a lista resusltao que vira apenas 1 indice por isso o 0 no final
-        #random.choice criou uma lista com a probabilidade em cima, puxando e faazendo uma lista com apenas 1 item de indice 0
-        #o random.choice faz a lista analalisando as opções que são as 'tentativas' e as suas proobabilidades e forma assim
-
         print(f"SEU PRÊMIO É: {resultado}")
 
     elif opcao == 'n':
@@ -46,4 +42,5 @@ while Flag == True:
     
     
     
+
 
